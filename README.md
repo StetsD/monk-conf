@@ -1,2 +1,2 @@
 # monk-conf
-monk-conf module
+monk-conf is config module
