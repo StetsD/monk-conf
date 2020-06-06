@@ -12,6 +12,11 @@ const (
 	DbPass  = "DB_PASS"
 	AppPort = "APP_PORT"
 	AppHost = "APP_HOST"
+	TransportType = "TRANSPORT_TYPE"
+	TransportHost = "TRANSPORT_HOST"
+	TransportPort = "TRANSPORT_PORT"
+	TransportUser = "TRANSPORT_USER"
+	TransportPass = "TRANSPORT_PASS"
 )
 
 var RequiredConfigFields = []string{
@@ -22,6 +27,11 @@ var RequiredConfigFields = []string{
 	DbPass,
 	AppPort,
 	AppHost,
+	TransportType,
+	TransportHost,
+	TransportPort,
+	TransportUser,
+	TransportPass,
 }
 
 type Config struct {
